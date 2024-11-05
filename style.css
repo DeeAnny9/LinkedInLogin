@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 30px;
+    width: 300px;
+    /* text-align: center; */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.center-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-box {
+    display: block;
+    padding: 5px auto 5px auto;
+   
+}
+
+.continue-with-google {
+    padding: 15px;
+}
+
+input, .password {
+    flex: 1;
+    padding: 10px;
+}
+
+.input {
+    border: none;
+    outline: none;
+}
+
+.password {
+    border: 1px solid gray;
+}
+
+.join-now {
+    margin: 10px 0;
+    text-align: center;
+} 
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.line {
+    border-bottom: 1px solid silver;
+    height: 0.1px;
+    width: 40%;
+    margin-bottom: 15px;
+    
+}
+
+.f1 {
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+
+.sign-in {
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+    background-color: #0a66c2;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.sign-in:hover {
+    background-color: #004182;
+}
+
+.forgot-password {
+    color:#378fe9;
+    text-decoration: none;
+    padding: 5px;
+    display:inline;
+    border-radius: 15px;
+   
+}
+
+.forgot-password:hover {
+    background-color: #7ab0e6;
+    text-decoration: underline;
+}
+
+h2 {
+    color:#0a66c2;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+}
+
+footer a {
+    color: gray;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#style {
+    color: black;
+}
